@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirat's Fitness</title>
+    <link rel="stylesheet" href="GYM/style.css">
+</head>
+<style>
+body{
+    color: beige;
+    margin : 0px;
+    padding: 0px;
+    background: url('gym-fitness-workout.webp');
+    height: 1000px;
+    
+}
+.left{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    
+    display: inline-block;
+}
+.left img{
+    width: 150px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    
+
+}
+.navbar li{
+
+    display: inline-block;
+  
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 22px;
+    font-size: 25px;
+}
+.navbar li a:hover, .navbar li a.active {
+    color:grey;
+
+}
+.right{
+    
+    display: inline-block;
+    position:absolute;
+    right: 40px;
+    top: 12px; 
+
+}
+.right button{
+    background-color:transparent;
+    color:white ;
+   font: bold;
+   padding: 10px 10px;
+   margin: 10px 10px;
+   border-radius: 10px;
+   
+}
+.right :hover{
+    background-color: grey;
+}
+.container{
+    
+    text-align: center;
+    border: 2px solid white;
+    height: 300px;
+   
+    width: 1000px;
+    border-radius:  100px; ;
+    margin-top: 300px;
+    
+    text-align: center;
+}
+
+
+.kir button{
+    color: red ;
+    text:bold;
+    border-radius:10px;
+    margin-top:10px;
+    background-color: black; 
+}
+
+
+</style>
+<body>
+    <header class="header">
+    <div class="left">
+     <img src="th.jpg" alt="">
+
+    </div>
+   <div class="mid">
+    <ul class="navbar">
+        <li><a href="#" class="active"></a> Home</a></li>
+        <li><a href="#"> About</a></li>
+        <li><a href="#"> Fitness plans</a></li>
+        <li><a href="#"> Contact us</a></li>
+       </ul>
+    
+
+   </div>
+   <div class="right">
+   <button class="btn">call us now</button>
+   <button class="btn">email us</button>
+   </div>
+
+
+<div class="container">
+<h1>Registration</h1> 
+<form class="kir" action="noaction.php">
+
+<div class="form-group">
+<input type="text" name="" placeholder="your name">
+</div>
+
+<div class="form-group">
+    <input type="text" name="" placeholder="age">
+</div>
+
+<div class="form-group " >
+        <input type="text" name="" placeholder="contact no.">
+</div>
+
+<div class="form-group">
+    <input type="text" name="" placeholder="address">
+
+</div>
+<button class="btn">Submit</button>
+
+</form>   
+
+   </div>
+
+    </header>
+</body>
+</html>
